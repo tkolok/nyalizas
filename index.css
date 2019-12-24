@@ -10,6 +10,25 @@ body {
     text-align: center;
 }
 
+button {
+    background-color: #00838F;
+    border: none;
+    border-radius: .25rem;
+    color: #FFF;
+    cursor: pointer;
+    padding: .25rem;
+}
+
+input {
+    border: 1px solid #00838F;
+    border-radius: .25rem;
+    padding: .25rem;
+}
+
+input::placeholder {
+    color: #B2EBF2;
+}
+
 #screen {
     align-items: center;
     background-color: #FFF;
@@ -42,21 +61,15 @@ body {
 
 #answer {
     font-size: 1.25rem;
-    padding: .25rem;
     width: 17rem;
 }
 
 #send {
-    background-color: #00838F;
-    border: none;
-    border-radius: .25rem;
-    color: #FFF;
     font-size: 1.25rem;
-    padding: .25rem;
 }
 
 #info2 {
-    color: #888;
+    color: #00838F;
     display: block;
     font-size: .75rem;
     font-style: italic;
@@ -68,8 +81,19 @@ body {
     margin-top: 3rem;
 }
 
-.SA #message span {
-    color: #888;
+.AN .a {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.KE .a {
+    display: block;
+    margin-top: .5rem;
+    color: #00838F;
+}
+
+.SA .a {
+    color: #00838F;
     display: block;
     font-size: 1rem;
     font-style: italic;

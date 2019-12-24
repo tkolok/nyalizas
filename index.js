@@ -15,17 +15,24 @@ let user = null;
 const users = [
     {
         id: 'AN',
-        message: '',
+        message:
+            '¾¯º¨iµľ°uk³³°Äk±®¹¹½²½°d¼Å°¶®¿·©´wk¨®k¬¾½kÁ¥³º¹d½À¯³­x°pi³º«Âk¸­Ĳ½¿iÀ°i®·¥¼¾fªmµ´ļ·°°´Ƽkºª²Äx·' +
+            '´·´´¹¨²²kª¸²¬°´ºÅ³µk¬d¼Å°¶®¿¿©²¯¯©µz°²°²«ÂĬ·¸ª·Ĭ²i¹°±iÁ¬«Âk°«Âk¾¥«·º²¸¾k©¶­°¶z·­·­¿¥«´·dĲ' +
+            '½¿ĭ´½°²­°¯d¿¬¹x·´·´°¾¾Ĳ·³©½Ň¹¯i¬¶ĥ»¸´¶ƚ·k¥iÁ´°Ī²º²uk¸­i¬¶¯¸½k·®¸kª¸²À²´k¾©¶¸´¦®¹k·®¸k±®²°«Â°Å²²z°' +
+            '²°²Ĕ·i¸Ĵ«i½°²°°¿©°k¸­·¯°²Ĳ½¿pi¯°d¶º¾¸i·°«Â°¹d®·Ĵ«i°¹²Â´sµ´xÀ·',
         name: 'Áj Nikolett',
         nickname: 'Niki',
-        question: ''
+        question: 'Amikor volt a lakásavatótok, akkor mit írtam a párnádba?'
     },
     {
         id: 'BZ',
-        message: '',
+        message:
+            '©»±·»·µ»®lª¾¶°Ä¥À¦¿i®ķ³lµĳ»´Ð°¾qr­¦v®ĵ¬r¶ªÄ¥µ¬r³Ĵ»®®ªÄ·¦ÁaÀ¦Ä½¢Â¢·sr»»³µ³Æ®®v¢l¸ÌĶ·»¥l²»·¥¿¨l¦r±¦Âºĵ³r' +
+            '¿¢ÄolÄƚ¥Ō¯l«·µĽÂaµ¸r¹³ŉ£ĭ±ÅÃaÃªº©»°aÉ¦³ĲÆ®¯¿a¹ĦÅ¸¬Ä¢·srĪ¾¢l¹Ōµ»ÅµÀ¦ÀiªÉa·ª¶¿¦ÉaÂ¦¹Âmv¥±eÇ°º»a±¿r®¨Ïa±' +
+            '²´®³¼Ľ³¬ƣi¥Å­»¬~i©Å¨Åe½²¯»¬l²»i¢v´»°i»a±¿Ì®­v´±²¿²a¸¢¶eÀ²¯¹´xeÀ®aÌĢ¸¹ÁÃµ·´¿e¿ª¨·¥»³s',
         name: 'Beke Zoltán',
         nickname: 'Zozó',
-        question: ''
+        question: 'Mi a keresztneve annak a nőnek, akiről azt mondtam, hogy külsőre pont az esetem?'
     },
     {
         id: 'CSG',
@@ -51,6 +58,13 @@ const users = [
         question: 'Mi a második keresztneved?'
     },
     {
+        id: 'HA',
+        message: '',
+        name: 'Hadas Attila',
+        nickname: 'Attila',
+        question: ''
+    },
+    {
         id: 'JA',
         message:
             '³º²¥lµ¦¨³»ƞ´ÆĿ³a¯o¯ªÆª­®¯³®µl¼»¦À´Á¯ĵ¶a®³¶¸ķ¿Ãķ¯¼¸ya¹®³µn´¹aº®®a¶¸À»±­ma¶¾´ºl®»a»¸¹º±·a´½º®µl³¦­³½Áaº®' +
@@ -64,10 +78,14 @@ const users = [
     },
     {
         id: 'KE',
-        message: '',
+        message: '²¹¥·°kªÁi®´½­Ĭ­Âª¸a°®¹¯³­wa³Ã¿a¯i¿ķÀ®¿­³·k®³·°µ³µĴ´ÂwkÃ­º®zi³°µÂk¯ķ±¬aÂ®·«³¼°¯n®·¦µ®¯aÄª¹mn­°aºĪ' +
+            '¾´Ã´k£³uk¢¹´º³n¼°®n¼Å°¹½Ĭ­n¶°¨įµ·¯·wkį¼¹¢¹i´´n¼Å°¹¸¿µn®·¦µ®k­³·¹ªzi¯¦nƚ¶a¯Ã¿Ģ¼i±¦ºi´´nª¯«į´yaÃ¿Ģ¼iºµÂ' +
+            'iÁ¢¼i¬»nªk·ķ°¿¦º®¹a¹®¯·³¼¾Īµuk¢»²Á¦ºi¸ĢÁ¸¶a´®·Īn¯º³²¾·´ÈwkÈ½kªÁi¾°¹Ī´¨n½À¥¼Ī¸a²²®´ķ»¹ª|i¦nªÅĪÀ½k¢¼·¬¬' +
+            'n²¾ań»Ň­¼Ĳ¶mn±¬aÄĲ²³³i­¦ºĪ¿¯į­wa¶¸²ºn¼ÅĪ¾i·Ģ¼Âk·¯°Äonğ½ĽºĿ¶mn±º¨ÇiÁ¢µÂk¯³´°®o¬a±µ¬´Ám¢pi³³³¯c¶½¿±Áz' +
+            'pÅÀÂoÇ¸ÀµÃ«°o±¸¸pÅª¿¤¶Á~¥|t·~£® c´¬¯z¢',
         name: 'Kerezsi Eleonóra',
         nickname: 'Nóri',
-        question: ''
+        question: 'Mi a művészneve, annak a nőnek, akinek az egyik retro slágere nagy kedvenced volt régebben?'
     },
     {
         id: 'KK',
@@ -80,8 +98,22 @@ const users = [
         question: 'Melyik mai napig imádott magyar zeneszámot fedeztük fel együtt?'
     },
     {
+        id: 'LSZ',
+        message:
+            '¶¾¹°n²ķ°j¶Â¹ºÀ¦n·¯Ât´´³·º®µuÈĴ¨²qn­¯uµÅaºĮµi¸Î½··ā¼»¯µĽt³°Çe³°Ãu¾ľ­º°ƿi¶ĶÂÄa¯¬Çwj£µ²º¼eń»ņÁŊ' +
+            '¶m@¶´µÂjÂ¹²ª»ªÀ±¯ÉÈ°­¹qnĲ½uµ¹¯¹e»Ĳ±u¾º£¯³nĿ¼őÀŁ¬Ln­½°ÃuÈ°´ē»¦Âi¯¼ÍkªÇª¼i¸ÄÆ¸Ģ·¸nµīÃÂÄ¢n­½Ã¾¶tŁ´' +
+            'ÈªnªjÈÃ½´NnÈ½jÅ¹¯ªn°ŊµŀÃt´®ā²´»i¬ºÂ¹¦ze¶¸±Ît´­³³n´³Èt®´À«³¼jÈÎĬ«Ěn±į·ÃuÊ¬¨|',
+        name: 'Lakatos Szilvia',
+        nickname: 'Szilvike',
+        question: 'Hogy szólítod az anyós jelölted/anyósod?'
+    },
+    {
         id: 'PM',
-        message: '',
+        message:
+            '¯´É°º¾¢{~}nÆ»²Â¸¼Ç¦ºp´ÈÍ¦¹p°Ès¦´ÉoÁÍĴÃ±»n¿¦m¹Ânŀ³Á±¼nÅĴ¹±³nÀª»´´¼Çom¾»Â­Æ±½n´»m±Én¸®¯µÁnÉ¢´É{n´¬¶Â´nÁ' +
+            '¦ºpÃÃ·°¸pÁ½Æ´Ç±ÃnÀ°»´°¼¼om¶Çsª´±É·s¤À¿³¯s·®·Èn´»mĹ»³Ç¦º²´¼a£±¶Ç¼´{~}n´»mµ¶ķÆ»mÆ¸ºĴ¨»±ºn´»mÆ°µÌom´»sµ' +
+            'Â´¾»s®Ķ·o»¼µm½¾¼·©®Ä½ķ¾om¦°µÌªÀpÃÃ·°º|o²¸a®¾½Ç¼aº¹½²¸¯ÁpÃÃ·¯Ķ»o»Â¯±±½·aµ¿¶Çsª»»İ°µa¯µ»³s´²pº³Í¥²»}n¨Æ' +
+            'ÃÉ³ÅƲ²¾o±Æ¢¸pºńÆ»Ń¾Ņ¹s®¶¾³³ÁµypĸÁs¯®·È½Áa»±¶ÇÂ¯mÃÉ³Å¦Á¼´¹t',
         name: 'Porcs Mária',
         nickname: 'Angyalka',
         question: 'Mi volt az, amin sokat vitatkoztunk, mert rossz méretben vettél?'
@@ -92,18 +124,31 @@ const users = [
             'ª½saÁÈĢ±·½¢wiÁ¸¸¾a»­Æa¸¸Á·´Î¯ķ¯r®Ĵ°sm´Ãa¼¥Âª²i¸ºsÃ¨¯¾»a¹ƚÁ¸sÎ¢À¸³­¬´s¾ÃaÂ¹¶«¬iÀ¼sÄ¦º©Àµk·ƤÁ¾z' +
             '­³²Àªyi ´sÈ¢¾­¹a¬ÃÇsĴÎ°»dÄ¢µ½´·LsÂ°µ½r¬´½´Åņ»¯n§Åª¹Ī¿ÆsÇª¼¨·¯¿us´¼Îa¹©¾­yi ´sÈ¢¾­¹a¹®ÀsŉÌµķ°r®°°' +
             'sÆ»¬n±·¨¿¸ÅÃÁÎĢºdÀĪ³ªs»É¯¼¥Àa¸²Á·ºz§³°ĳ­·½Ĵ¿Nsģ´n±³ªk·´Ãºz¯³±r®À½´Ç´¾a°©r¯°´¸À@¡É³°­Æoywss»aº' +
-            'ĭÀº°°sÂÁºn·Ì¦½²ÁÇÀz¯³±r·ĬµÇÂÇĻ­n·Á¬¬½s´s¿­»ľ¾µkĲÉ¸µ¿¯zd¶¦k½¸sÂÈµnı¹ºk¿´ºsÄĴoÅ±¬·¨a¾rķ¾¼Í¸' +
-            'sÐ°º¸r­¬´ņÇāÅÍ¢»d³»¿iÀÂ·Î¢zdº°²ÂsÇsÐ¢µ½r¢kµ¸ºÍ¿£°d¾Ģ¹Âs´@ÉÉ­Âd¾¢¶ļÇĴÆ»ª»d½ķÅŅ¿\\Í±¯²',
+            'ĭÀº°°sÂÁºn·Ì¦½²ÁÇÀz¯³±r·ĬµÇÂÇĻ­n·Á¬¬½s´s¿­»ľ¾µkĲÉ¸µ¿¯zd¶¦k½¸sÂÈµnı¹ºk¿´ºsÄĴoÅ±¬·s¶´Í´f³c¼' +
+            'Zs»nĺÅ´Å®ÆsÂÆµn°³¬ľ½ĴÅ´Ça¯¾Æa¸¸Á·´a¶³¹ºk½¸s´Áºn¥r­°°ÆÍµ¼aºĥÀºkªsÉ¿Îaº¥½Ĵ¿ĪÅÆ¼Ça¹ĺÌĽ·wÃ»¯',
         name: 'Skórán Anna',
         nickname: 'Anna',
         question: 'Mi volt a teljes neve annak a barátnőmnek, akivel még te is jóban voltál?'
     },
     {
         id: 'SJ',
-        message: '',
+        message: '¸È@¬»o°¾º¥¼¦¼½Ľhĥµŋ¸ķ¿qh·Ã¼h¼¨¶µ´ÁªºÃ¹¨³{c¼±³Èe´´»¯ĩ±¥oÂ¢Âe­¶Í@Ľ²°¥±l¢À°··Ã¬»Ã¤o­»tĮ´´È°ª´' +
+            '±{l¢¿®¾´À@«©oĹÂ¿»¹«½ÃÂ®hŉ·¹­ªÂ°toµ®·Ác¼±©¹¹ń½¿@¥ĩÁ«¾Â¢e¶Í@­Ļµ¨¹l¨Íªº´¿@¹©¶¼{l¬¹±´Ơt¼ľºĬÁ¿Ī»¬­»t¨¯' +
+            'İ¯³Â¢eÉĽ·h¼¨¶l¬Ő±ľ½t¤¸Â½o±¨Íe¬¸·Ĭº´·´Àmt²­ÁÈ@¤ºÁ¤o´¢À¦¬oµcı»¨Ã±¥e©¼¹µ­o·´l´Îªº´ÈĬ¬}',
         name: 'Sechna János',
         nickname: 'Jancsicskó',
-        question: ''
+        question: 'Mit kértem a Winter Wonderlanden, amit a csaj nem bírt megérteni?'
+    },
+    {
+        id: 'SZA',
+        message:
+            '¢¤Ģ¿b¬ĸ»²®a§»²´aī·²b¯§®m®Ģ¶µ®®¢­mm£µ¶Ĵ¹b®ī¨m¯ª°¥¶©a±µÁb­£±Â®´¼a®b´¼ĮÃ§®¤¦»pa¦m®Ģµ´Â­a¤¦yb¦¼aÁ§­¬¦À§¯b' +
+            'Ī¿¶©§µƞpaª»¦ª©a¶µa§¨Æb«ĵ­²®¬Ƴa¹ģ¯»aÃ±­¶Ģ¹na£¬¶b´±¬®¶a¶ķ¿Ɠ¥«¬m£aµ»²´¦¶µ²«·§­ybĪµaµ£a§¨Æb¬«´mµ»§³²¶¦¶¦Áb' +
+            '¬£±yb¢­¬¼´a£»Áb·«´Ç±¯±»Ç£a«´{b£­ŀµ»į¯ƾ®¦©a½±¯¶a²¼Ī´µm´¢©¢À¼¬±¥¼­aī¯m«´b©¼¼»ģ¥{b§®Ķ®¦¯mmª°©ºm¯ªª¢º£³££' +
+            '¯b­ģµ»«a¨°´®¢­b',
+        name: 'Szalontai Andrea',
+        nickname: 'Andika',
+        question: 'Milyen becenéven hívtalak régebben?'
     },
     {
         id: 'TA',
@@ -118,16 +163,16 @@ window.onload = () => newScreen(userSelectorScreen());
 
 function encode(code, message) {
     const {length} = code;
-    code = code.toUpperCase();
+    code = [...code.toUpperCase()].map(c => c.charCodeAt(0));
 
-    return [...message].map((c, i) => String.fromCharCode(code.charCodeAt(i % length) + c.charCodeAt(0))).join('');
+    return [...message].map((c, i) => String.fromCharCode(code[i % length] + c.charCodeAt(0))).join('');
 }
 
 function decode(code, message) {
     const {length} = code;
-    code = code.toUpperCase();
+    code = [...code.toUpperCase()].map(c => c.charCodeAt(0));
 
-    return [...message].map((c, i) => String.fromCharCode(c.charCodeAt(0) - code.charCodeAt(i % length))).join('');
+    return [...message].map((c, i) => String.fromCharCode(c.charCodeAt(0) - code[i % length])).join('');
 }
 
 function messageScreen(code) {
