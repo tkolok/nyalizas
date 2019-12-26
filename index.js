@@ -58,13 +58,6 @@ const users = [
         question: 'Mi a második keresztneved?'
     },
     {
-        id: 'HA',
-        message: '',
-        name: 'Hadas Attila',
-        nickname: 'Attila',
-        question: ''
-    },
-    {
         id: 'JA',
         message:
             '³º²¥lµ¦¨³»ƞ´ÆĿ³a¯o¯ªÆª­®¯³®µl¼»¦À´Á¯ĵ¶a®³¶¸ķ¿Ãķ¯¼¸ya¹®³µn´¹aº®®a¶¸À»±­ma¶¾´ºl®»a»¸¹º±·a´½º®µl³¦­³½Áaº®' +
@@ -152,10 +145,14 @@ const users = [
     },
     {
         id: 'TA',
-        message: '',
+        message:
+            '·ºÅªÁÁ¾Âul°¦n´İÂi­º¯Ç°ÂÊ¸¾l®³®³¹¬¿ĵ³Â¬»µ´l¹ĢÀso¸¸³Åa»ĨÁp·µº¤Ág¼¹½l¹°¼«°¾¸¹l¯³²´´wl¨Çg½±°Å¿»³¹ǀp´»¹£·µ' +
+            'İ³²Ŀ¶¢n½°·Âl­a¹°Ã±»Àĭ´¼¨º|i­ÆaķºÉ¾®·xa¯gÃņ»Ɲ°ĪÁµ´»ul­a´¬»¾ƚÀÀ´ķ®½µ´xl¢nºÃ±«µ¸ªÂĨÂ¾ª·za¡Á´Â²ºÀ¦»gÃµi¼»¯Â' +
+            'g´·Âl»­Ç¨½p·Ɲl·¯®È|i­·ªnºÉ¹·À±a»°½´®ºl¯Ɵµ´»i¼ĵ­²¨ºĹ¹l¸¦¶¬Ã¾®zl¯°o¾ª¼µ¨n¬¶Éiº­¨Ç¶½pĲ¾ÀĪ¹¬Âp®¹®¦Àµ´»iÀ­³' +
+            'Â¨»±´zlÈg¼µ°l¹ĢÀg²Ãª·l¢n¹İ±­ĭ¿mn¯¾·Âl±¨Çg¸¼Â±ºaµÀŅ¾Âł¾ƲnªÂ¿¶­³°ºĨÂ²ªºl·¯®Èp®¸ĵ³¶¬Ãơw',
         name: 'Tándor Ágnes',
         nickname: 'Göndi',
-        question: ''
+        question: 'Mi volt a kód, amit megadtam neked?'
     }
 ];
 
