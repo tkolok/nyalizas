@@ -5,6 +5,7 @@ function animateImage(answer) {
         document.getElementById('fuckIt').classList.remove('hidden');
     }
 
+    document.getElementById('buttons').remove();
     document.getElementById('flower').classList.add('blooming');
     document.getElementById('flowerBody').setAttribute('d', 'M 2000 2500 C 2000 500, 2000 500, 2000 500');
     setTimeout(() => document.getElementById('flowerHead').classList.add('rotate'), 3000);
