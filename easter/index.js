@@ -19,8 +19,14 @@ function newPoem() {
         case 'szilvike':
             setPoem('Kicsiny falumban jártam.', 'A legeslegnagyobb kincset és anyukáját láttam.', 'A pöttöm kincset még nem, de az anyukáját', 'Szabad-e locsolni?');
             break;
+        case 'anna':
+            setPoem('Zöld erdőben jártam.', 'Vörös rózsát láttam.', 'Évek óta nem akart hervadni,', 'De attól még szabad-e locsolni?');
+            break;
         case 'nori':
             setPoem('Karanténban jártam.', 'A világ legpompázatosabb káláját már ezer éve nem láttam.', 'Azóta csak nem kezdett el hervadni.', 'Szabad-e locsolni?');
+            break;
+        case 'barbi':
+            setPoem('Remek a hangulatod -tom -tom -torotom -tom', 'Ma van a <a href="https://www.youtube.com/watch?v=rHh6qI-S_Ww">szülinapod</a> -pom -pom -porpom -pom', 'Karanténban mulatozol -tom -tom -torotom -tom', 'Szabad-e locsolni?');
             break;
         case 'vivien':
         case 'patricia':
